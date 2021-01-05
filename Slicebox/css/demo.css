@@ -62,7 +62,6 @@ h1{
 	color: #fff;
 	margin: 20px 20px 30px 20px;
 	font-size: 56px;
-	
 	top: 60px;
 	white-space: nowrap;
 	z-index: 10;
@@ -83,7 +82,10 @@ h1{
                -3px 3px 2px #BBB,
                3px 3px 2px #BBB,
                3px -3px 2px #BBB;
-  color: steelblue;}
+  color: black;}
+  @media (max-width: 840px){
+  		.title h1{font-size:calc(20px + (30 - 20) *((100vw - 320px) / (840 - 320)));}
+  }
 
 .wrapper {
 	position: relative;

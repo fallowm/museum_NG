@@ -18,10 +18,6 @@ audio .controls{
 .sb-description h3 {
 	font-size: 20px;
 	color: #fff;
-	
-	
-	
-	t
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 	font-family: 'Economica', Arial, sans-serif;
 	text-align: center;
@@ -39,8 +35,11 @@ audio .controls{
                -3px 3px 2px #BBB,
                3px 3px 2px #BBB,
                3px -3px 2px #BBB;
-  color: steelblue;
+  color: black;
 }
+@media (max-width: 840px){
+  		.sb-description h3{font-size:calc(5px + (30 - 20) *((100vw - 320px) / (840 - 320)));}
+  }
 
 .sb-description h3 a {
 	color: #4a3c27;
