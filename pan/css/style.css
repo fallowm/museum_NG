@@ -106,8 +106,12 @@ h1 {
                -3px 3px 2px #BBB,
                3px 3px 2px #BBB,
                3px -3px 2px #BBB;
-  color: steelblue;
+  color: black;
 }
+
+@media (max-width: 840px){
+      .header h1{font-size:calc(20px + (30 - 20) *((100vw - 320px) / (840 - 320)));}
+  }
 
 h2 {
   text-align: center;
@@ -134,11 +138,14 @@ h2 {
                -3px 3px 2px #BBB,
                3px 3px 2px #BBB,
                3px -3px 2px #BBB;
-  color: steelblue;
+  color: black;
 }
 
 .panorama {
-
-  height: 650px;
+  position: relative;
+  margin:auto;
+  height: 350px;
+  width: 640px;
+  overflow: hidden;
   margin: 0 auto;
 }
