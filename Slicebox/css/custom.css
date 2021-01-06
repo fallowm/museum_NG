@@ -23,19 +23,7 @@ audio .controls{
 	text-align: center;
 	font-weight: 300;
 
-	text-shadow: -1px -1px #FFF,
-               -1px -1px #FFF,
-               -1px 1px #FFF,
-               -1px 1px #FFF,
-               1px 1px #FFF,
-               1px 1px #FFF,
-               1px -1px #FFF,
-               1px -2px #FFF,
-               -3px -3px 2px #BBB,
-               -3px 3px 2px #BBB,
-               3px 3px 2px #BBB,
-               3px -3px 2px #BBB;
-  color: black;
+	
 }
 @media (max-width: 840px){
   		.sb-description h3{font-size:calc(5px + (30 - 20) *((100vw - 320px) / (840 - 320)));}
